@@ -2,10 +2,7 @@
 
 int main() {
     int accountNumber;
-    double beginningBalance;
-    double totalCharges;
-    double totalCredits;
-    double creditLimit;
+    double beginningBalance,totalCharges,totalCredits,creditLimit;
 do{
     printf("Enter account number(-1 to end) : ");
     scanf("%d", &accountNumber);
